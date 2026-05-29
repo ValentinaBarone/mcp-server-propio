@@ -2,18 +2,10 @@
   "name": "mcp-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-<<<<<<< HEAD
-    "start": "node server.js",
-=======
-    "start": "node index.js",
->>>>>>> 3d9f6f220a51287b7403adf36547dbd72ef8ecc9
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "module",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
@@ -24,8 +16,4 @@
     "pg": "^8.20.0",
     "zod": "^4.3.6"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 3d9f6f220a51287b7403adf36547dbd72ef8ecc9
